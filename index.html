@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Image Search Engine</h1>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search any image...">
+            <button onclick="searchImage()">Search</button>
+        </div>
+
+        <div id="imageResults" class="image-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Image Preview Popup -->
+<div id="previewBox" class="previewBox">
+    <span id="closePreview">&times;</span>
+    <img id="previewImg" src="" alt="Preview">
+    
+    <!-- Download Button -->
+    <a id="downloadBtn" download class="downloadBtn">Download Image</a>
+</div>
+
+</div>
+</body>
+</html>
